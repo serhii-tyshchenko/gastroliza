@@ -1,0 +1,473 @@
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1199px){
+	.review-box {
+        width: 100%;
+    }
+
+    .patients-reviews-sec .owl-carousel .owl-stage {
+        width: 8950px !important;
+    }
+	.blog-img-box {
+		background-size: cover;
+		width: 100%;
+	  }
+	  .blogs-section .blog-details {
+		width: 260px;
+	  }
+	  .process-con .process-img-box {
+        width: 161px;
+        height: 161px;
+        margin-bottom: 41px;
+    }
+
+    .process-con .process-img-box figure {
+        width: 124px;
+        height: 124px;
+    }
+	.process-con p{
+		color: #757887;
+		padding: 0px 0px;
+	  }
+	  /* service page responsive start */
+	  .category-box>figure img {
+        width: 100%;
+        height: 175px;
+    }
+
+    .service-categories {
+        gap: 24px;
+    }
+
+    .category-details figure {
+        height: 60px;
+        width: 60px;
+        left: 18px;
+        top: -30px;
+    }
+
+    .category-details figure img {
+        width: 28px;
+    }
+
+    .category-details {
+        padding: 45px 18px 20px;
+    }
+
+    .category-details h5 {
+        margin-bottom: 8px;
+    }
+	.category-details p {
+		margin-bottom: 14px;
+	  }
+	  .category-details p {
+		margin-bottom: 14px;
+		font-size: 16px;
+	  }
+	  .process-con p{
+		font-size: 16px;
+	  }
+	  .review-box p {
+		font-size: 16px;
+	  }
+	  .medical-services-style-2 p {
+		font-size: 16px;
+	  }
+	  .team-section1 .team-members-con>ul {
+        grid-gap: 40px 24px;
+        grid-template-columns: 23% 23% 23% 23%;
+    }
+
+    .team-section1 .team-members-con ul li figure img {
+        width: 100%;
+        height: auto;
+    }
+    /* service page responsive end */
+	.about-services-box ul {
+        gap: 20px;
+    }
+
+    .about-services-box ul li {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .about-services-box ul li figure {
+        margin-bottom: 12px;
+    }
+    .faq-inner-section .card-body {
+        font-size: 16px;
+      }
+}
+@media screen and (max-width:991px){
+	.nav-transparent .nav-container .navbar-collapse .navbar-nav > li:last-child a {
+		padding: 0px;
+		background-color: transparent;
+		color: #000;
+		border-radius: 6px;
+		margin-left: 0px;
+	}
+	.nav-transparent .nav-container .navbar-collapse .navbar-nav > li:last-child a:hover{
+		background-color: transparent;
+	}
+	.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children {
+		margin-right: 0px;
+	}
+	.navbar-area .nav-container .navbar-collapse .navbar-nav .menu-item-has-children a:first-child::before{
+		color:#000 !important;
+	}
+	.navbar-area .nav-container .navbar-collapse .navbar-nav li + li {
+		margin: 0px 0px !important;
+	}
+	.navbar-area .nav-container .navbar-nav li.menu-item-has-children > .sub-menu {
+		border-radius: 6px !important;
+		background: transparent !important;
+		color: #000 !important;
+	}
+	.review-box p {
+		margin-bottom: 20px;
+		font-size: 16px;
+		font-family: 'outfit';
+	  }
+	  .blogs-section .blog-details p {
+		font-size: 16px;
+	  }
+	  .team-section span{
+		font-size: 16px;
+	  }
+	  .social-links li {
+		height: 32px;
+		width: 32px;
+		margin: 0 3px;
+		border-radius: 100%;
+		background: var(--button-color);
+		font-size: 10px;
+	  }
+	  .contact-form button i {
+		padding: 12px;
+		margin-left: 10px;
+	  }
+	  .process-con ul {
+        grid-gap: 27px;
+        grid-template-columns: 22% 22% 22% 22%;
+    }
+
+    .process-con .process-img-box figure {
+        width: 104px;
+        height: 104px;
+    }
+
+    .process-img-box figure img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .process-con .process-img-box {
+        width: 141px;
+        height: 141px;
+        margin-bottom: 35px;
+    }
+	.process-con ul li p br {
+        display: none;
+    }
+	.process-con p{
+		font-size: 16px;
+	  }
+	  .process-con ul {
+        grid-gap: 30px 20px;
+        grid-template-columns: 48% 48%;
+    }
+	/* service page responsive start */
+    .service-categories {
+        grid-template-columns: 31% 31% 31%;
+    }
+	.category-details p {
+		margin-bottom: 14px;
+		font-size: 16px;
+	  }
+	  .medical-services-style-2 p {
+		font-size: 16px;
+	  }
+    /* service page responsive end */
+	.medical-services-style-2 ul {
+        grid-gap: 30px 20px;
+        grid-template-columns: 48% 48%;
+    }
+	.team-section1 .team-members-con>ul {
+        grid-gap: 18px;
+    }
+	.about-services-box ul {
+        gap: 27px;
+        grid-template-columns: 48% 48%;
+    }
+    /* faq page responsive start */
+    .faq-inner-section .card {
+        margin-bottom: 20px;
+    }
+
+    /* faq page responsive end */
+    .faq-inner-section {
+        width: 100%;
+    }
+}
+@media screen and (max-width:860px) {
+	#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container{
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	
+}
+@media screen and (max-width:767px){
+	.navbar-area-2 .navbar-area .nav-container .navbar-collapse .navbar-nav li {
+		padding: 0px !important;
+	}
+	.navbar-area-2 .navbar-area .navbar {
+		padding: 0px 0px;
+	}
+	.patients-reviews-sec .owl-carousel::after {
+        width: 70px;
+        height: 75px;
+        top: -60px;
+    }
+
+    .review-box {
+        text-align: center;
+        padding: 30px 20px 26px;
+    }
+    .style-2 .review-box{
+        text-align: left;
+    }
+    .style-2 .patient-details {
+        justify-content: left  !important;
+    }
+
+    .patient-details {
+        justify-content: center;
+    }
+
+    .patients-reviews-sec .owl-carousel .owl-item img {
+        margin: 0 auto;
+    }
+
+    .patients-reviews-sec .owl-carousel .owl-stage {
+        width: 11150px !important;
+    }
+	.blogs-section .owl-carousel button.owl-dot,
+    .patients-reviews-sec .owl-carousel button.owl-dot {
+        margin: 0 2px;
+        height: 8px;
+        width: 8px;
+    }
+
+    .blogs-section .owl-carousel button.owl-dot.active,
+    .patients-reviews-sec .owl-carousel button.owl-dot.active {
+        height: 12px;
+        width: 12px;
+    }
+	.review-box p {
+		margin-bottom: 20px;
+		font-size: 14px;
+		font-family: 'outfit';
+	  }
+	  .blogs-section .blog-details {
+		width: 270px;
+	}
+	.blogs-section .blog-details p {
+		font-size: 14px;
+		margin-bottom: 4px;
+	  }
+	.blogs-section .blog-details a {
+	font-size: 14px;}
+	.team-section figure{
+		margin-bottom: 15px !important;
+	}
+	.team-section span{
+	margin-bottom: 10px;
+	font-size: 14px;
+	}
+	.team-section h5{
+		margin-bottom: 0px !important;
+	}
+	.process-con ul li h4 {
+        margin-bottom: 0;
+    }
+	.process-con ul {
+        grid-gap: 30px 20px;
+        grid-template-columns: 48% 48%;
+    }
+	.process-con p{
+		font-size: 14px;
+	  }
+	  /* service page responsive start */
+	  .service-categories {
+        gap: 20px;
+        grid-template-columns: 48% 48%;
+    }
+
+    /* service page responsive end */
+	.category-details p {
+		margin-bottom: 10px;
+		font-size: 14px;
+	  }
+	  a{
+		font-size: 12px;
+	  }
+	  .medical-services-style-2 p {
+		font-size: 14px;
+		margin-bottom: 10px;
+	  }
+	  .medical-services-style-2 a {
+		font-size: 12px !important;
+	  }
+	  .medical-services-style-2 ul {
+        grid-gap: 30px 20px;
+        grid-template-columns: 48% 48%;
+    }
+	.team-section1 .team-members-con ul li figure img {
+        width: 80%;
+    }
+
+    .team-section1 .team-members-con ul li figure {
+        margin-bottom: 15px;
+    }
+
+    .team-section1 .team-members-con ul li span {
+        margin-bottom: 12px;
+    }
+
+    .team-section1 .team-members-con>ul {
+        grid-gap: 30px 20px;
+        grid-template-columns: 48% 48%;
+    }
+	.image-box-elementor img{
+		margin-bottom: 10px !important;
+	}
+	.about-services-box ul li figure img {
+        width: 50px;
+    }
+    /* faq page responsive start */
+    .faq-inner-section .card-header h5 .btn.collapsed,
+    .faq-inner-section .card-header h5 .btn {
+        white-space: normal;
+        padding: 11px 50px 12px 0;
+    }
+
+    .faq-inner-section .card-header::before {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .faq-inner-section .card-header h5 .btn::after,
+    .faq-inner-section .card-header h5 .btn.collapsed::after {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .faq-inner-section .card-body {
+        font-size: 14px;
+      }
+      .faq-inner-section {
+        width: 100%;
+    }
+    /* faq page responsive end */
+    .team-section .owl-dots{
+        display: none !important;
+      }
+
+}
+@media screen and (max-width: 575px) {
+    .team-section img{
+		display: inline-flex !important;
+		height: 200px !important;
+	}
+	.team-section figure{
+		height: 200px;
+	}
+	.process-con ul {
+        grid-gap: 25px;
+        grid-template-columns: 100%;
+    }
+
+    .process-con .process-img-box figure {
+        width: 84px;
+        height: 84px;
+    }
+
+    .process-con .process-img-box {
+        width: 121px;
+        height: 121px;
+        margin-bottom: 30px;
+    }
+
+    .process-img-box figure img {
+        width: 46px;
+        height: 46px;
+    }
+	/* service page responsive start */
+    .service-categories {
+        gap: 25px;
+        grid-template-columns: auto;
+    }
+
+    .category-details {
+        padding: 40px 15px 15px;
+    }
+
+    .category-box {
+        width: 291px;
+        margin: 0 auto;
+    }
+	.medical-services-style-2 ul {
+        grid-gap: 25px;
+        grid-template-columns: 100%;
+    }
+	.team-section1 .team-members-con>ul {
+        grid-gap: 30px 20px;
+        grid-template-columns: 100%;
+    }
+	.team-section1 .team-members-con ul li figure img {
+        width: 70%;
+    }
+	.about-services-box ul li h5 {
+        margin-bottom: 0;
+    }
+	.about-services-box ul {
+        gap: 20px;
+        grid-template-columns: auto;
+    }
+    /* service page responsive end */
+    /* faq page responsive start */
+    .faq-inner-section .card-header::before {
+        padding: 8px;
+        height: 35px;
+        width: 35px;
+        left: 14px;
+        font-size: 12px;
+    }
+
+    .faq-inner-section .card-header {
+        padding: 9px 12px 12px 64px;
+    }
+
+    .faq-inner-section .card-body {
+        padding: 2px 15px 20px 64px;
+    }
+
+    .faq-inner-section .card-header h5 .btn::after,
+    .faq-inner-section .card-header h5 .btn.collapsed::after {
+        right: 13px;
+    }
+
+    .faq-inner-section .card-header h5 .btn.collapsed,
+    .faq-inner-section .card-header h5 .btn {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 0px 25px 0px 0;
+    }
+    .faq-inner-section .true .btn {
+        border-bottom: 0px solid #dae3f5;
+      }
+
+    /* faq page responsive end */
+}

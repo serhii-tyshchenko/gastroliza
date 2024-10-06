@@ -82,7 +82,7 @@ h5 {
   color: var(--e-global-color-white);
 }
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 /*GDPR CSS*/
 #moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme{
@@ -107,7 +107,7 @@ body {
   box-shadow: 1px 3px 8px 1px rgba(0,0,0,0.1);
 }
 #moove_gdpr_cookie_info_bar .moove-gdpr-cookie-notice p{
-  font-family: 'outfit' !important;
+  font-family: 'Roboto' !important;
   font-weight: 400 !important;
   line-height: 24px !important;
   font-size: 14px !important;
@@ -116,7 +116,7 @@ body {
 #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton, #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton {
   font-size: 14px !important;
   font-weight: 400 !important;
-  font-family: 'outfit' !important;
+  font-family: 'Roboto' !important;
   cursor: pointer;
   box-shadow: 1px 3px 8px 1px rgba(0,0,0,0.1);
   background-color: black !important;
@@ -137,7 +137,7 @@ body {
   background-color: #f8f8f8 !important;
   color: #000 !important;
   border: 1px solid #4383EC !important;
-  font-family: 'outfit' !important;
+  font-family: 'Roboto' !important;
 }
 #moove_gdpr_cookie_modal .moove-gdpr-modal-content.moove_gdpr_modal_theme_v1 .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton, #moove_gdpr_cookie_modal .moove-gdpr-modal-content.moove_gdpr_modal_theme_v1 .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton:hover{
   color: #000 !important;
@@ -146,7 +146,7 @@ body {
 #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main h3.tab-title, #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main span.tab-title, 
 #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a span.gdpr-nav-tab-title, #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button span.gdpr-nav-tab-title,
 #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content .moove-gdpr-branding-cnt a{
-  font-family: 'outfit' !important;
+  font-family: 'Roboto' !important;
 }
 #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected button:hover{
   color: #000 !important;
@@ -215,7 +215,7 @@ span.cart-contents-count {
 .review-box p {
   margin-bottom: 20px;
   font-size: 18px;
-  font-family: 'outfit';
+  font-family: 'Roboto';
   color: #757887;
 }
 

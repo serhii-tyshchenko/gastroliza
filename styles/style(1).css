@@ -130,13 +130,13 @@ html {
     font-size: 18px;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: 'outfit';
+    font-family: 'Roboto';
   }
   a {
     font-size: 16px;
     font-weight: 700;
     line-height: 18px;
-    font-family: 'outfit';
+    font-family: 'Roboto';
   
   }
 a, a:hover, a:focus, a:active {
@@ -1098,7 +1098,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, in
      backface-visibility: hidden;
 }
  .sidebar-menu .sidebar-inner .sidemenu-text p {
-     font-family: 'outfit';
+     font-family: 'Roboto';
 }
  .sidebar-menu .sidebar-menu-close {
      background-color: var(--e-global-color-very-dark-blue-one);
@@ -1136,7 +1136,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, in
      font-size: 16px;
      line-height: 35px;
      color: #2b2b2b;
-     font-family: 'outfit';
+     font-family: 'Roboto';
 }
  .sidebar-menu .sidebar-contact ul li i {
      font-size: 16px;
@@ -2664,7 +2664,7 @@ li.topbar-single-info a:hover, ul.topbar-left li:hover {
  .blog-details-area .blog-details-content .date span {
      font-size: 50px;
      font-weight: 100;
-     font-family: 'outfit', sans-serif;
+     font-family: 'Roboto', sans-serif;
      color: #000b2d;
      line-height: 50px;
      padding-top: 16px;
@@ -2674,7 +2674,7 @@ li.topbar-single-info a:hover, ul.topbar-left li:hover {
      font-size: 14px;
      line-height: 14px;
      font-weight: 700;
-     font-family: 'outfit', sans-serif;
+     font-family: 'Roboto', sans-serif;
      color: var(--e-global-color-very-dark-blue);
      text-transform: uppercase;
 }
@@ -2888,7 +2888,7 @@ li.topbar-single-info a:hover, ul.topbar-left li:hover {
      font-size: 14px;
      display: block;
      margin-bottom: 15px;
-     font-family: 'outfit', sans-serif;
+     font-family: 'Roboto', sans-serif;
 }
  .blog-details-area .blog-details-content .entry-comment .comment-list li .single-comment-item .content .time i {
      padding-right: 7px;
@@ -3463,7 +3463,7 @@ li.topbar-single-info a:hover, ul.topbar-left li:hover {
  .page-title-area .breadcrumb .active {
     font-weight: 400;
      color: var(--e-global-color-white);
-     font-family: 'outfit';
+     font-family: 'Roboto';
 }
 .breadcrumb-item + .breadcrumb-item::before {
      content: '-';
@@ -3592,7 +3592,7 @@ footer.footer-area.style-3 {
  .footer-area .footer-bottom .copyright {
      margin: 0;
      font-size: 14px;
-     font-family: 'outfit', sans-serif;
+     font-family: 'Roboto', sans-serif;
      color: #a2b1cc;
      font-weight: 300;
 }
@@ -3845,7 +3845,7 @@ ul.page-numbers li .current{
  .custom-date-wrap span {
      font-size: 50px;
      font-weight: 100;
-     font-family: 'outfit', sans-serif;
+     font-family: 'Roboto', sans-serif;
      color: #000b2d;
      line-height: 50px;
      padding-top: 16px;
@@ -3855,7 +3855,7 @@ ul.page-numbers li .current{
      font-size: 14px;
      line-height: 14px;
      font-weight: 700;
-     font-family: 'outfit', sans-serif;
+     font-family: 'Roboto', sans-serif;
      color: var(--e-global-color-very-dark-blue);
      text-transform: uppercase;
 }
@@ -3870,7 +3870,7 @@ ul.page-numbers li .current{
 .blog-details-inner li{
     color: var(--text-color);
     font-weight: 400;
-    font-family: 'outfit';
+    font-family: 'Roboto';
 }
 .blog-details-inner li::marker{
     color: var(--e-global-color-black-light);
@@ -4784,7 +4784,7 @@ button.search-submit:hover {
   transition: all 300ms;
   cursor: pointer;
   border-radius: 0 3px 3px 0;
-  font-family: 'outfit';
+  font-family: 'Roboto';
 }
 
 .wp-block-search button[type=submit]:focus {
@@ -6436,7 +6436,7 @@ span.tagged_as a:hover{
     cursor:zoom-in;
 }
 .woocommerce-tabs li a{
-    font-family: 'Outfit' !important;
+    font-family: 'Roboto' !important;
 }
 span.posted_in {
     color: var(--e-global-color-black-light);
@@ -6453,7 +6453,7 @@ span.tagged_as{
 .woocommerce-checkout .wc-block-components-order-summary .wc-block-components-panel__button:hover{
     font-size: 20px !important;
     font-weight: 700;
-    font-family: 'outfit';
+    font-family: 'Roboto';
 }
 .wc-block-components-button__text{
     color: var(--button-color);
@@ -6628,7 +6628,7 @@ td#today {
     padding-bottom: 0;
 }
 .single-product .entry-summary{
-    font-family: 'outfit';
+    font-family: 'Roboto';
 }
 /* Elementor navbars Styling*/
 .elementor-template-canvas .navbar-area{
@@ -6734,7 +6734,7 @@ blockquote {
     margin: 1em auto;
 }
 .wp-block-woocommerce-empty-cart-block{
-    font-family: 'outfit';
+    font-family: 'Roboto';
 }
 .wp-block-woocommerce-empty-cart-block h2{
     margin-bottom: 20px;

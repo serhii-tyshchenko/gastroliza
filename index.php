@@ -19,46 +19,13 @@ $theme_root_link = get_template_directory_uri();
 
     <link rel="canonical" href="https://gastroliza.com.ua/">
     <link rel="shortlink" href="https://gastroliza.com.ua/">
-    <!-- insert head.php from template-parts -->
     <?php get_template_part('template-parts/head'); ?>
 
 </head>
 
 <body class="home page-template page-template-elementor_header_footer page page-id-18 theme-medwell elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-18 e--ua-blink e--ua-edge e--ua-webkit" data-elementor-device-mode="desktop">
-    <div class="navbar-area navbar-area-2 style-2 extra-margin-top">
-        <!-- navbar start -->
-        <div class="navbar-area navbar-area-2 style-2 extra-margin-top">
-            <nav class="navbar navbar-area navbar-expand-lg nav-transparent">
-                <div class="container nav-container nav-white">
-                    <div class="responsive-mobile-menu">
-                        <div class="logo">
-                            <a class="standard-logo" href="/">
-                                <img src="<?php echo $theme_root_link ?>/images/header-logo.png" alt="logo">
-                            </a>
-                            <a class="retina-logo" href="/">
-                                <img src="<?php echo $theme_root_link ?>/images/logo@2x.png" alt="logo">
-                            </a>
-                        </div>
-                        <button class="s7t-header-menu toggle-btn d-block d-lg-none" data-toggle="collapse" data-val="0" data-target="#medwell_main_menu" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="icon-left"></span>
-                            <span class="icon-right"></span>
-                        </button>
-                    </div>
-                    <div id="medwell_main_menu" class="collapse navbar-collapse">
-                        <ul id="menu-primary-menu" class="navbar-nav">
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/">Про мене</a>
-                            </li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/">Послуги</a>
-                            </li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/">Блог</a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Контакти</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
+
+    <?php get_template_part('template-parts/navbar'); ?>
 
     <div id="content" class="site-content">
         <div class="breadcrumb-area breadcrumb-bg only-front-page breadcrumb-spacing style-1">

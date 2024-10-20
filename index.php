@@ -159,7 +159,7 @@ $theme_root_link = get_template_directory_uri();
                                                         <figure>
                                                             <img decoding="async" src="<?php echo $theme_root_link ?>/images/heart-img.png" alt="" class="img-fluid">
                                                         </figure>
-                                                        <h5>Посулга 1</h5>
+                                                        <h5>Послуга 1</h5>
                                                         <p>Duis aute irure dolor in reprehenderit in voluta zesse cillum…</p>
                                                         <a href="/our-services">Докладніше <i class="fas fa-angle-right"></i></a>
                                                     </li>
@@ -235,8 +235,7 @@ $theme_root_link = get_template_directory_uri();
                                 </div>
                                 <div class="elementor-element elementor-element-ca83d33 elementor-widget elementor-widget-heading" data-id="ca83d33" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Welcome to Medwell
-                                            Hospital &amp; Healthcare</h2>
+                                        <h2 class="elementor-heading-title elementor-size-default">Вітаю</h2>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-2528660 elementor-widget elementor-widget-text-editor" data-id="2528660" data-element_type="widget" data-widget_type="text-editor.default">
@@ -295,7 +294,7 @@ $theme_root_link = get_template_directory_uri();
                                 <div class="elementor-element elementor-element-97a8ae1 elementor-widget elementor-widget-Medwell Button" data-id="97a8ae1" data-element_type="widget" data-widget_type="Medwell Button.default">
                                     <div class="elementor-widget-container">
                                         <div class="btn_wrapper_widget" data-aos="fade-up">
-                                            <a href="/services/" class="primary-btn button-effect">Докладніше<i class="fas fa-arrow-right"></i></a>
+                                            <a href="/about-us/" class="primary-btn button-effect">Докладніше<i class="fas fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>

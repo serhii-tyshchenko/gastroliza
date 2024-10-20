@@ -26,9 +26,9 @@ $theme_root_link = get_template_directory_uri();
                 </div>
                 <div id="medwell_main_menu" class="collapse navbar-collapse">
                     <ul id="menu-primary-menu" class="navbar-nav">
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/">Про мене</a>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about">Про мене</a>
                         </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/">Послуги</a>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/services">Послуги</a>
                         </li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/">Блог</a>
                         </li>

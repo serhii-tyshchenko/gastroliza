@@ -161,7 +161,7 @@ $theme_root_link = get_template_directory_uri();
                                                         </figure>
                                                         <h5>Послуга 1</h5>
                                                         <p>Duis aute irure dolor in reprehenderit in voluta zesse cillum…</p>
-                                                        <a href="/our-services">Докладніше <i class="fas fa-angle-right"></i></a>
+                                                        <a href="/services">Докладніше <i class="fas fa-angle-right"></i></a>
                                                     </li>
                                                     <li class="text-center" data-aos="fade-up" data-aos-duration="700">
                                                         <figure>
@@ -169,7 +169,7 @@ $theme_root_link = get_template_directory_uri();
                                                         </figure>
                                                         <h5>Послуга 2</h5>
                                                         <p>Guis aute irure dolor in reprehenderit in voluta zesse cillum…</p>
-                                                        <a href="/our-services">Докладніше <i class="fas fa-angle-right"></i></a>
+                                                        <a href="/services">Докладніше <i class="fas fa-angle-right"></i></a>
                                                     </li>
                                                     <li class="text-center" data-aos="fade-up" data-aos-duration="700">
                                                         <figure>
@@ -177,7 +177,7 @@ $theme_root_link = get_template_directory_uri();
                                                         </figure>
                                                         <h5>Послуга 3</h5>
                                                         <p>Nuis aute irure dolor in reprehenderit in voluta zesse cillum…</p>
-                                                        <a href="/our-services">Докладніше <i class="fas fa-angle-right"></i></a>
+                                                        <a href="/services">Докладніше <i class="fas fa-angle-right"></i></a>
                                                     </li>
                                                     <li class="text-center" data-aos="fade-up" data-aos-duration="700">
                                                         <figure>
@@ -185,7 +185,7 @@ $theme_root_link = get_template_directory_uri();
                                                         </figure>
                                                         <h5>Послуга 4</h5>
                                                         <p>Euis aute irure dolor in reprehenderit in voluta zesse cillum…</p>
-                                                        <a href="/our-services">Докладніше <i class="fas fa-angle-right"></i></a>
+                                                        <a href="/services">Докладніше <i class="fas fa-angle-right"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -765,6 +765,7 @@ $theme_root_link = get_template_directory_uri();
                     </div>
                 </div>
             </div>
+            <!-- News and Blogs -->
             <div class="elementor-element elementor-element-0931ab9 e-flex e-con-boxed e-con e-parent" data-id="0931ab9" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-77a94b6 e-con-full e-flex e-con e-child" data-id="77a94b6" data-element_type="container">
@@ -781,64 +782,53 @@ $theme_root_link = get_template_directory_uri();
                         <div class="elementor-element elementor-element-62dc77d elementor-widget elementor-widget-blog-post" data-id="62dc77d" data-element_type="widget" data-widget_type="blog-post.default">
                             <div class="elementor-widget-container">
                                 <section class="blogs-section w-100 float-left padding-top padding-bottom">
-
                                     <div class="container">
                                         <div class="blogs-inner-con" data-aos="fade-up" data-aos-duration="700">
                                             <div class="owl-carousel blog-carousel owl-theme owl-loaded owl-drag">
                                                 <div class="owl-stage-outer">
                                                     <div class="owl-stage" style="transform: translate3d(-1140px, 0px, 0px); transition: all; width: 3420px;">
+                                                        <?php 
+                                    $the_query = new WP_Query( array(
+                                        'post_type' => 'post',
+                                        'posts_per_page' => 3,
+                                        'orderby' => 'date',
+                                        'order' => 'DESC',
+                                    )); ?>
+
+                                                        <?php if ( $the_query->have_posts() ) : ?>
+                                                        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                                                        <?php
+                                        $post_id = get_the_ID();
+                                        $post_title = get_the_title();
+                                        $post_date = get_the_date();
+                                        $post_excerpt_full = get_the_excerpt();
+                                        $post_thumbnail = get_the_post_thumbnail_url($post_id);
+                                        $post_url = get_the_permalink();
+                                        $post_excerpt = strlen($post_excerpt_full) > 40 ? substr($post_excerpt_full,0,40)."..." : $post_excerpt_full;
+                                        
+                                                                            ?>
+
                                                         <div class="owl-item">
                                                             <div class="item">
                                                                 <div class="blog-box">
-                                                                    <div class="blog-first-img blog-img-box" style="background-image: url(&#39;<?php echo $theme_root_link ?>/images/blog-post-1.jpg&#39;);background-repeat:no-repeat;background-position: center center;background-size:cover;"></div>
+                                                                    <div class="blog-first-img blog-img-box" style="background-image: url(&#39;<?php echo $post_thumbnail ?>&#39;);background-repeat:no-repeat;background-position: center center;background-size:cover;"></div>
                                                                     <div class="blog-details">
-                                                                        <span class="d-block"><i class="fas fa-calendar-alt"></i> Jan 05, 2024</span>
-                                                                        <h5>Get the Home care and nursing service</h5>
-                                                                        <p>In today's fast-paced world, where individuals…</p>
-                                                                        <a href="/?post_type=post&amp;p=5832">Докладніше <i class="fas fa-angle-right"></i></a>
+                                                                        <span class="d-block"><i class="fas fa-calendar-alt"></i> <?php echo $post_date ?></span>
+                                                                        <h5><?php echo $post_title ?></h5>
+                                                                        <p><?php echo $post_excerpt ?></p>
+                                                                        <br />
+                                                                        <a href="<?php echo $post_url ?>">Докладніше <i class="fas fa-angle-right"></i></a>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="owl-item">
-                                                            <div class="item">
-                                                                <div class="blog-box">
-                                                                    <div class="blog-first-img blog-img-box" style="background-image: url(&#39;<?php echo $theme_root_link ?>/images/blog-post-3.jpg&#39;);background-repeat:no-repeat;background-position: center center;background-size:cover;"></div>
-                                                                    <div class="blog-details">
-                                                                        <span class="d-block"><i class="fas fa-calendar-alt"></i> Jan 05, 2024</span>
-                                                                        <h5>Effective Ways to Manage Hypertension</h5>
-                                                                        <p>Hypertension, or high blood pressure, is…</p>
-                                                                        <a href="/?post_type=post&amp;p=5835">Докладніше <i class="fas fa-angle-right"></i></a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="owl-item">
-                                                            <div class="item">
-                                                                <div class="blog-box">
-                                                                    <div class="blog-first-img blog-img-box" style="background-image: url(&#39;<?php echo $theme_root_link ?>/images/blog-post-2.jpg&#39;);background-repeat:no-repeat;background-position: center center;background-size:cover;"></div>
-                                                                    <div class="blog-details">
-                                                                        <span class="d-block"><i class="fas fa-calendar-alt"></i> Jan 05, 2024</span>
-                                                                        <h5>Dental or Implant. What is the Best?</h5>
-                                                                        <p>The decision between dental implants and…</p>
-                                                                        <a href="/?post_type=post&amp;p=5838">Докладніше <i class="fas fa-angle-right"></i></a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="owl-item">
-                                                            <div class="item">
-                                                                <div class="blog-box">
-                                                                    <div class="blog-first-img blog-img-box" style="background-image: url(&#39;<?php echo $theme_root_link ?>/images/blog-post-1.jpg&#39;);background-repeat:no-repeat;background-position: center center;background-size:cover;"></div>
-                                                                    <div class="blog-details">
-                                                                        <span class="d-block"><i class="fas fa-calendar-alt"></i> Jan 05, 2024</span>
-                                                                        <h5>Get the Home care and nursing service</h5>
-                                                                        <p>In today's fast-paced world, where individuals…</p>
-                                                                        <a href="/?post_type=post&amp;p=5832">Докладніше <i class="fas fa-angle-right"></i></a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+
+                                                        <?php endwhile; ?>
+                                                        <?php wp_reset_postdata(); ?>
+
+                                                        <?php else : ?>
+                                                        <p><?php __('No News'); ?></p>
+                                                        <?php endif; ?>
                                                     </div>
                                                 </div>
                                             </div>
@@ -850,6 +840,7 @@ $theme_root_link = get_template_directory_uri();
                     </div>
                 </div>
             </div>
+            <!-- end News and Blogs -->
         </div>
     </div>
 

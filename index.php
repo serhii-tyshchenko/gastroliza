@@ -41,8 +41,8 @@ $theme_root_link = get_template_directory_uri();
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-1110c29 elementor-widget elementor-widget-text-editor" data-id="1110c29" data-element_type="widget" data-widget_type="text-editor.default">
-                                <div class="elementor-widget-container">
-                                    Caring is our calling. Changing Health Care for Good. We’re here for life. Feel better. </div>
+                                <div class="elementor-widget-container">Персоналізований підхід, що грунтується на принципах доказової медицини.
+                                </div>
                             </div>
                             <div class="elementor-element elementor-element-2b5bbc3 elementor-widget elementor-widget-Medwell Button" data-id="2b5bbc3" data-element_type="widget" data-widget_type="Medwell Button.default">
                                 <div class="elementor-widget-container">
@@ -56,66 +56,6 @@ $theme_root_link = get_template_directory_uri();
                             <div class="elementor-element elementor-element-e040483 elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="e040483" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
                                     <img fetchpriority="high" decoding="async" width="640" height="674" src="<?php echo $theme_root_link ?>/images/home-img-banner.png" class="attachment-large size-large wp-image-1519" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-5ae0cad e-con-full e-flex e-con e-child" data-id="5ae0cad" data-element_type="container">
-                            <div class="elementor-element elementor-element-c12abcf elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="c12abcf" data-element_type="widget" data-widget_type="text-editor.default">
-                                <div class="elementor-widget-container">
-                                    Персоналізований підхід, що грунтується на принципах доказової медицини.</div>
-                            </div>
-                            <div class="elementor-element elementor-element-71d851d e-con-full e-flex e-con e-child" data-id="71d851d" data-element_type="container">
-                                <div class="elementor-element elementor-element-7617678 e-con-full e-flex e-con e-child" data-id="7617678" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                    <div class="elementor-element elementor-element-a768c94 elementor-widget elementor-widget-image" data-id="a768c94" data-element_type="widget" data-widget_type="image.default" style="width:40px;height:40px;">
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-2b29a7f e-con-full e-flex e-con e-child" data-id="2b29a7f" data-element_type="container">
-                                    <div class="elementor-element elementor-element-ed21e6c elementor-widget elementor-widget-counter" data-id="ed21e6c" data-element_type="widget" data-widget_type="counter.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-counter">
-                                                <div class="elementor-counter-number-wrapper">
-                                                    <span class="elementor-counter-number-prefix"></span>
-                                                    <span class="elementor-counter-number" data-duration="2000" data-to-value="98" data-from-value="1" data-delimiter=",">&nbsp;</span>
-                                                    <span class="elementor-counter-number-suffix">&nbsp;</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-718cf36 elementor-widget elementor-widget-heading" data-id="718cf36" data-element_type="widget" data-widget_type="heading.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-heading-title elementor-size-default">&nbsp;</div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-24a0237 elementor-widget elementor-widget-text-editor" data-id="24a0237" data-element_type="widget" data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">&nbsp;</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-d25df70 e-con-full e-flex e-con e-child" data-id="d25df70" data-element_type="container">
-                                <div class="elementor-element elementor-element-079229e e-con-full e-flex e-con e-child" data-id="079229e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                    <div class="elementor-element elementor-element-a2f138e elementor-widget elementor-widget-image" data-id="a2f138e" data-element_type="widget" data-widget_type="image.default" style="width:40px;height:40px;">
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-4fa58bd e-con-full e-flex e-con e-child" data-id="4fa58bd" data-element_type="container">
-                                    <div class="elementor-element elementor-element-8c7290c elementor-widget elementor-widget-counter" data-id="8c7290c" data-element_type="widget" data-widget_type="counter.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-counter">
-                                                <div class="elementor-counter-number-wrapper">
-                                                    <span class="elementor-counter-number-prefix"></span>
-                                                    <span class="elementor-counter-number" data-duration="2000" data-to-value="38" data-from-value="1" data-delimiter=",">&nbsp;</span>
-                                                    <span class="elementor-counter-number-suffix">&nbsp;</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-cc5f021 elementor-widget elementor-widget-heading" data-id="cc5f021" data-element_type="widget" data-widget_type="heading.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-heading-title elementor-size-default">&nbsp;</div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-cfeac11 elementor-widget elementor-widget-text-editor" data-id="cfeac11" data-element_type="widget" data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">&nbsp;</div>
-                                    </div>
                                 </div>
                             </div>
                         </div>

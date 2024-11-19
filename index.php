@@ -37,7 +37,7 @@ $theme_root_link = get_template_directory_uri();
                         <div class="elementor-element elementor-element-7aba071 e-con-full e-flex e-con e-child" data-id="7aba071" data-element_type="container">
                             <div class="elementor-element elementor-element-23c533d elementor-widget elementor-widget-heading" data-id="23c533d" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h1 class="elementor-heading-title elementor-size-default">Medical &amp; Health Care Solutions.</h1>
+                                    <h1 class="elementor-heading-title elementor-size-default">Профілактика, діагностика, лікування ШКТ.</h1>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-1110c29 elementor-widget elementor-widget-text-editor" data-id="1110c29" data-element_type="widget" data-widget_type="text-editor.default">
@@ -62,14 +62,11 @@ $theme_root_link = get_template_directory_uri();
                         <div class="elementor-element elementor-element-5ae0cad e-con-full e-flex e-con e-child" data-id="5ae0cad" data-element_type="container">
                             <div class="elementor-element elementor-element-c12abcf elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="c12abcf" data-element_type="widget" data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident. </div>
+                                    Персоналізований підхід, що грунтується на принципах доказової медицини.</div>
                             </div>
                             <div class="elementor-element elementor-element-71d851d e-con-full e-flex e-con e-child" data-id="71d851d" data-element_type="container">
                                 <div class="elementor-element elementor-element-7617678 e-con-full e-flex e-con e-child" data-id="7617678" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                    <div class="elementor-element elementor-element-a768c94 elementor-widget elementor-widget-image" data-id="a768c94" data-element_type="widget" data-widget_type="image.default">
-                                        <div class="elementor-widget-container">
-                                            <img decoding="async" width="40" height="40" src="<?php echo $theme_root_link ?>/images/Home-banner-img.png" class="elementor-animation-float attachment-full size-full wp-image-538" alt="">
-                                        </div>
+                                    <div class="elementor-element elementor-element-a768c94 elementor-widget elementor-widget-image" data-id="a768c94" data-element_type="widget" data-widget_type="image.default" style="width:40px;height:40px;">
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-2b29a7f e-con-full e-flex e-con e-child" data-id="2b29a7f" data-element_type="container">
@@ -78,29 +75,25 @@ $theme_root_link = get_template_directory_uri();
                                             <div class="elementor-counter">
                                                 <div class="elementor-counter-number-wrapper">
                                                     <span class="elementor-counter-number-prefix"></span>
-                                                    <span class="elementor-counter-number" data-duration="2000" data-to-value="98" data-from-value="1" data-delimiter=",">98</span>
-                                                    <span class="elementor-counter-number-suffix">%</span>
+                                                    <span class="elementor-counter-number" data-duration="2000" data-to-value="98" data-from-value="1" data-delimiter=",">&nbsp;</span>
+                                                    <span class="elementor-counter-number-suffix">&nbsp;</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-718cf36 elementor-widget elementor-widget-heading" data-id="718cf36" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <div class="elementor-heading-title elementor-size-default">позитивних відгуків</div>
+                                            <div class="elementor-heading-title elementor-size-default">&nbsp;</div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-24a0237 elementor-widget elementor-widget-text-editor" data-id="24a0237" data-element_type="widget" data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            From Our Clients </div>
+                                        <div class="elementor-widget-container">&nbsp;</div>
                                     </div>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-d25df70 e-con-full e-flex e-con e-child" data-id="d25df70" data-element_type="container">
                                 <div class="elementor-element elementor-element-079229e e-con-full e-flex e-con e-child" data-id="079229e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                    <div class="elementor-element elementor-element-a2f138e elementor-widget elementor-widget-image" data-id="a2f138e" data-element_type="widget" data-widget_type="image.default">
-                                        <div class="elementor-widget-container">
-                                            <img decoding="async" width="32" height="32" src="<?php echo $theme_root_link ?>/images/home-banner-img1.png" class="elementor-animation-float attachment-full size-full wp-image-634" alt="">
-                                        </div>
+                                    <div class="elementor-element elementor-element-a2f138e elementor-widget elementor-widget-image" data-id="a2f138e" data-element_type="widget" data-widget_type="image.default" style="width:40px;height:40px;">
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-4fa58bd e-con-full e-flex e-con e-child" data-id="4fa58bd" data-element_type="container">
@@ -109,20 +102,19 @@ $theme_root_link = get_template_directory_uri();
                                             <div class="elementor-counter">
                                                 <div class="elementor-counter-number-wrapper">
                                                     <span class="elementor-counter-number-prefix"></span>
-                                                    <span class="elementor-counter-number" data-duration="2000" data-to-value="38" data-from-value="1" data-delimiter=",">38</span>
-                                                    <span class="elementor-counter-number-suffix">+</span>
+                                                    <span class="elementor-counter-number" data-duration="2000" data-to-value="38" data-from-value="1" data-delimiter=",">&nbsp;</span>
+                                                    <span class="elementor-counter-number-suffix">&nbsp;</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-cc5f021 elementor-widget elementor-widget-heading" data-id="cc5f021" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <div class="elementor-heading-title elementor-size-default">Вдячних пацієнтів</div>
+                                            <div class="elementor-heading-title elementor-size-default">&nbsp;</div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-cfeac11 elementor-widget elementor-widget-text-editor" data-id="cfeac11" data-element_type="widget" data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            Our Treatment Office </div>
+                                        <div class="elementor-widget-container">&nbsp;</div>
                                     </div>
                                 </div>
                             </div>
@@ -664,102 +656,6 @@ $theme_root_link = get_template_directory_uri();
                                         </div>
                                     </div>
                                 </section>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="elementor-element elementor-element-a5930bd e-flex e-con-boxed e-con e-parent" data-id="a5930bd" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                <div class="e-con-inner">
-                    <div class="elementor-element elementor-element-d7e7e31 e-con-full e-flex e-con e-child" data-id="d7e7e31" data-element_type="container">
-                        <div class="elementor-element elementor-element-66fcf22 e-con-full e-flex e-con e-child" data-id="66fcf22" data-element_type="container">
-                            <div class="elementor-element elementor-element-a495da2 e-con-full e-flex e-con e-child" data-id="a495da2" data-element_type="container">
-                                <div class="elementor-element elementor-element-06245ea elementor-widget elementor-widget-image" data-id="06245ea" data-element_type="widget" data-widget_type="image.default">
-                                    <div class="elementor-widget-container">
-                                        <img loading="lazy" decoding="async" width="54" height="73" src="<?php echo $theme_root_link ?>/images/Professional-Doctors-img.png" class="elementor-animation-float attachment-full size-full wp-image-1433" alt="">
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-430b92b elementor-widget elementor-widget-counter" data-id="430b92b" data-element_type="widget" data-widget_type="counter.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-counter">
-                                            <div class="elementor-counter-number-wrapper">
-                                                <span class="elementor-counter-number-prefix"></span>
-                                                <span class="elementor-counter-number" data-duration="2000" data-to-value="3859" data-from-value="0">0</span>
-                                                <span class="elementor-counter-number-suffix">+</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-61eab04 elementor-widget elementor-widget-text-editor" data-id="61eab04" data-element_type="widget" data-widget_type="text-editor.default">
-                                    <div class="elementor-widget-container">
-                                        Professional Doctors </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-93a8356 e-con-full e-flex e-con e-child" data-id="93a8356" data-element_type="container">
-                                <div class="elementor-element elementor-element-73e8a90 elementor-widget elementor-widget-image" data-id="73e8a90" data-element_type="widget" data-widget_type="image.default">
-                                    <div class="elementor-widget-container">
-                                        <img loading="lazy" decoding="async" width="70" height="73" src="<?php echo $theme_root_link ?>/images/Globally-Hospitals-img.png" class="elementor-animation-float attachment-full size-full wp-image-1479" alt="">
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-18a17df elementor-widget elementor-widget-counter" data-id="18a17df" data-element_type="widget" data-widget_type="counter.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-counter">
-                                            <div class="elementor-counter-number-wrapper">
-                                                <span class="elementor-counter-number-prefix"></span>
-                                                <span class="elementor-counter-number" data-duration="2000" data-to-value="8596" data-from-value="0">0</span>
-                                                <span class="elementor-counter-number-suffix"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-55355e7 elementor-widget elementor-widget-text-editor" data-id="55355e7" data-element_type="widget" data-widget_type="text-editor.default">
-                                    <div class="elementor-widget-container">
-                                        Globally Hospitals </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-0dcad48 e-con-full e-flex e-con e-child" data-id="0dcad48" data-element_type="container">
-                                <div class="elementor-element elementor-element-331cf2d elementor-widget elementor-widget-image" data-id="331cf2d" data-element_type="widget" data-widget_type="image.default">
-                                    <div class="elementor-widget-container">
-                                        <img loading="lazy" decoding="async" width="72" height="73" src="<?php echo $theme_root_link ?>/images/Years-of-Expereince-img.png" class="elementor-animation-float attachment-full size-full wp-image-1480" alt="">
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-5d1a2ec elementor-widget elementor-widget-counter" data-id="5d1a2ec" data-element_type="widget" data-widget_type="counter.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-counter">
-                                            <div class="elementor-counter-number-wrapper">
-                                                <span class="elementor-counter-number-prefix"></span>
-                                                <span class="elementor-counter-number" data-duration="2000" data-to-value="42" data-from-value="0">0</span>
-                                                <span class="elementor-counter-number-suffix">+</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-5df5ec6 elementor-widget elementor-widget-text-editor" data-id="5df5ec6" data-element_type="widget" data-widget_type="text-editor.default">
-                                    <div class="elementor-widget-container">
-                                        Years of Expereince </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-f0fe5fe e-con-full e-flex e-con e-child" data-id="f0fe5fe" data-element_type="container">
-                                <div class="elementor-element elementor-element-2caf3b0 elementor-widget elementor-widget-image" data-id="2caf3b0" data-element_type="widget" data-widget_type="image.default">
-                                    <div class="elementor-widget-container">
-                                        <img loading="lazy" decoding="async" width="73" height="57" src="<?php echo $theme_root_link ?>/images/Successful-Operations.png" class="elementor-animation-float attachment-full size-full wp-image-1481" alt="">
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-9a42de8 elementor-widget elementor-widget-counter" data-id="9a42de8" data-element_type="widget" data-widget_type="counter.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-counter">
-                                            <div class="elementor-counter-number-wrapper">
-                                                <span class="elementor-counter-number-prefix"></span>
-                                                <span class="elementor-counter-number" data-duration="2000" data-to-value="852" data-from-value="0">0</span>
-                                                <span class="elementor-counter-number-suffix">+</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-ed5798b elementor-widget elementor-widget-text-editor" data-id="ed5798b" data-element_type="widget" data-widget_type="text-editor.default">
-                                    <div class="elementor-widget-container">
-                                        Successful Operations </div>
-                                </div>
                             </div>
                         </div>
                     </div>

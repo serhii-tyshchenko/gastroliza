@@ -67,14 +67,9 @@ $theme_root_link = get_template_directory_uri();
                     <div class="elementor-element elementor-element-752a4c0 e-con-full e-flex e-con e-child" data-id="752a4c0" data-element_type="container">
                         <div class="elementor-element elementor-element-429418a e-con-full e-flex e-con e-child" data-id="429418a" data-element_type="container">
                             <div class="elementor-element elementor-element-771b608 e-con-full e-flex e-con e-child" data-id="771b608" data-element_type="container">
-                                <div class="elementor-element elementor-element-c20609e elementor-widget elementor-widget-heading" data-id="c20609e" data-element_type="widget" data-widget_type="heading.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-heading-title elementor-size-default">WHAT WE PROVIDE</div>
-                                    </div>
-                                </div>
                                 <div class="elementor-element elementor-element-b7fe420 elementor-widget elementor-widget-heading" data-id="b7fe420" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Наші медичні послуги</h2>
+                                        <h2 class="elementor-heading-title elementor-size-default">Медичні послуги</h2>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-ce93ad7 elementor-widget elementor-widget-text-editor" data-id="ce93ad7" data-element_type="widget" data-widget_type="text-editor.default">
@@ -91,32 +86,28 @@ $theme_root_link = get_template_directory_uri();
                                                         <figure>
                                                             <img decoding="async" src="<?php echo $theme_root_link ?>/images/heart-img.png" alt="" class="img-fluid">
                                                         </figure>
-                                                        <h5>Послуга 1</h5>
-                                                        <p>Duis aute irure dolor in reprehenderit in voluta zesse cillum…</p>
+                                                        <p>Діагностика та лікування захворювань ШКТ</p>
                                                         <a href="/services">Докладніше <i class="fas fa-angle-right"></i></a>
                                                     </li>
                                                     <li class="text-center" data-aos="fade-up" data-aos-duration="700">
                                                         <figure>
                                                             <img decoding="async" src="<?php echo $theme_root_link ?>/images/lung-img.png" alt="" class="img-fluid">
                                                         </figure>
-                                                        <h5>Послуга 2</h5>
-                                                        <p>Guis aute irure dolor in reprehenderit in voluta zesse cillum…</p>
+                                                        <p>Діагностика та лікування харчової алергії</p>
                                                         <a href="/services">Докладніше <i class="fas fa-angle-right"></i></a>
                                                     </li>
                                                     <li class="text-center" data-aos="fade-up" data-aos-duration="700">
                                                         <figure>
                                                             <img decoding="async" src="<?php echo $theme_root_link ?>/images/Gynecology-img.png" alt="" class="img-fluid">
                                                         </figure>
-                                                        <h5>Послуга 3</h5>
-                                                        <p>Nuis aute irure dolor in reprehenderit in voluta zesse cillum…</p>
+                                                        <p>Розробка індивідуального плану харчування при недостатній або надлишковій вазі, при захворюваннях ШКТ</p>
                                                         <a href="/services">Докладніше <i class="fas fa-angle-right"></i></a>
                                                     </li>
                                                     <li class="text-center" data-aos="fade-up" data-aos-duration="700">
                                                         <figure>
                                                             <img decoding="async" src="<?php echo $theme_root_link ?>/images/Ophthalmology-img.png" alt="" class="img-fluid">
                                                         </figure>
-                                                        <h5>Послуга 4</h5>
-                                                        <p>Euis aute irure dolor in reprehenderit in voluta zesse cillum…</p>
+                                                        <p>Профілактика захворювань ШКТ та інших захворювань</p>
                                                         <a href="/services">Докладніше <i class="fas fa-angle-right"></i></a>
                                                     </li>
                                                 </ul>
@@ -160,19 +151,14 @@ $theme_root_link = get_template_directory_uri();
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-bd7fe38 e-con-full e-flex e-con e-child" data-id="bd7fe38" data-element_type="container">
-                                <div class="elementor-element elementor-element-ed99732 elementor-widget elementor-widget-heading" data-id="ed99732" data-element_type="widget" data-widget_type="heading.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-heading-title elementor-size-default">ПРО МЕНЕ</div>
-                                    </div>
-                                </div>
                                 <div class="elementor-element elementor-element-ca83d33 elementor-widget elementor-widget-heading" data-id="ca83d33" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Вітаю</h2>
+                                        <h2 class="elementor-heading-title elementor-size-default">Про мене</h2>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-2528660 elementor-widget elementor-widget-text-editor" data-id="2528660" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Donec pulvinar tellus egetmagna aliquet ultricies. nec eleifend sem convallis vitae soluta nobis est eligendi optio cumque nihio&nbsp; ruo minus id quod maxime placeat facere.</p>
+                                        <p>Постійно вдосконалюю знання, беручи участь у конференціях, семінарах, курсах підвищення кваліфікації, з метою впровадження нових методик та технологій у свою практику.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-411c0b5 e-con-full e-flex e-con e-child" data-id="411c0b5" data-element_type="container">
@@ -183,17 +169,17 @@ $theme_root_link = get_template_directory_uri();
                                                     <li class="elementor-icon-list-item">
                                                         <span class="elementor-icon-list-icon">
                                                             <i aria-hidden="true" class="fas fa-check-circle"></i> </span>
-                                                        <span class="elementor-icon-list-text">Monthly Checkups</span>
+                                                        <span class="elementor-icon-list-text">Надання висококваліфікованої медичної допомоги</span>
                                                     </li>
                                                     <li class="elementor-icon-list-item">
                                                         <span class="elementor-icon-list-icon">
                                                             <i aria-hidden="true" class="fas fa-check-circle"></i> </span>
-                                                        <span class="elementor-icon-list-text">Caring Medical Team</span>
+                                                        <span class="elementor-icon-list-text">Доказова медицина</span>
                                                     </li>
                                                     <li class="elementor-icon-list-item">
                                                         <span class="elementor-icon-list-icon">
                                                             <i aria-hidden="true" class="fas fa-check-circle"></i> </span>
-                                                        <span class="elementor-icon-list-text">Proactive and Fast Results</span>
+                                                        <span class="elementor-icon-list-text">Комплексний підхід</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -206,17 +192,7 @@ $theme_root_link = get_template_directory_uri();
                                                     <li class="elementor-icon-list-item">
                                                         <span class="elementor-icon-list-icon">
                                                             <i aria-hidden="true" class="fas fa-check-circle"></i> </span>
-                                                        <span class="elementor-icon-list-text">Cosmetic Filling</span>
-                                                    </li>
-                                                    <li class="elementor-icon-list-item">
-                                                        <span class="elementor-icon-list-icon">
-                                                            <i aria-hidden="true" class="fas fa-check-circle"></i> </span>
-                                                        <span class="elementor-icon-list-text">Dental X-Ray</span>
-                                                    </li>
-                                                    <li class="elementor-icon-list-item">
-                                                        <span class="elementor-icon-list-icon">
-                                                            <i aria-hidden="true" class="fas fa-check-circle"></i> </span>
-                                                        <span class="elementor-icon-list-text">Complete Crown</span>
+                                                        <span class="elementor-icon-list-text">Застосування сучасних гайдлайнів як у діагностиці, так і у лікування</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -321,14 +297,9 @@ $theme_root_link = get_template_directory_uri();
             <div class="elementor-element elementor-element-f789b5f e-flex e-con-boxed e-con e-parent" data-id="f789b5f" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-3745b35 e-con-full e-flex e-con e-child" data-id="3745b35" data-element_type="container">
-                        <div class="elementor-element elementor-element-3e425bf elementor-widget elementor-widget-heading" data-id="3e425bf" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">РОБОЧИЙ ПРОЦЕС</div>
-                            </div>
-                        </div>
                         <div class="elementor-element elementor-element-e5473fd elementor-widget elementor-widget-heading" data-id="e5473fd" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">Давайте подивимось як я працюю</h2>
+                                <h2 class="elementor-heading-title elementor-size-default">Як я працюю</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-417f673 elementor-widget elementor-widget-cpt" data-id="417f673" data-element_type="widget" data-widget_type="cpt.default">
@@ -389,14 +360,9 @@ $theme_root_link = get_template_directory_uri();
             <div class="elementor-element elementor-element-6d311b8 e-flex e-con-boxed e-con e-parent" data-id="8434726" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-e70e760 e-con-full e-flex e-con e-child" data-id="e70e760" data-element_type="container">
-                        <div class="elementor-element elementor-element-f1b8032 elementor-widget elementor-widget-heading" data-id="f1b8032" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">ВІДГУКИ</div>
-                            </div>
-                        </div>
                         <div class="elementor-element elementor-element-acafd57 elementor-widget elementor-widget-heading" data-id="acafd57" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">Що говорять мої пацієнти!</h2>
+                                <h2 class="elementor-heading-title elementor-size-default">Що говорять мої пацієнти</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-55300c9 elementor-absolute elementor-hidden-laptop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="55300c9" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
@@ -605,14 +571,9 @@ $theme_root_link = get_template_directory_uri();
             <div class="elementor-element elementor-element-0931ab9 e-flex e-con-boxed e-con e-parent" data-id="0931ab9" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-77a94b6 e-con-full e-flex e-con e-child" data-id="77a94b6" data-element_type="container">
-                        <div class="elementor-element elementor-element-85ffa1f elementor-widget elementor-widget-heading" data-id="85ffa1f" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">СТАТТІ &amp; ПОРАДИ</div>
-                            </div>
-                        </div>
                         <div class="elementor-element elementor-element-0fb3a7f elementor-widget elementor-widget-heading" data-id="0fb3a7f" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">Новини &amp; Блоги</h2>
+                                <h2 class="elementor-heading-title elementor-size-default">Новини та статті</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-62dc77d elementor-widget elementor-widget-blog-post" data-id="62dc77d" data-element_type="widget" data-widget_type="blog-post.default">
